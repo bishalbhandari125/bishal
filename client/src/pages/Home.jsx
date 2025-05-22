@@ -8,6 +8,9 @@ import {
   SiMongodb, SiExpress, SiTailwindcss, SiDotnet, SiMysql
 } from "react-icons/si";
 import heroImage from "../assets/bishal1.jpg"; // update with your image
+import Navbar from '../components/Navbar';
+import About from './About';
+
 
 function Home() {
   const skills = [
@@ -23,6 +26,7 @@ function Home() {
   ];
 
   return (
+    <>
     <section className="w-screen h-screen bg-black text-white flex items-center justify-center px-6 md:px-24 overflow-hidden">
       <div className="w-full max-w-6xl flex flex-col items-center text-center gap-6">
 
@@ -97,26 +101,10 @@ function Home() {
 </div>
 
 
-
-        {/* CTA Buttons */}
-        <div className="flex gap-6 mt-4 flex-wrap justify-center">
-          <a
-            href="#contact"
-            className="px-8 py-4 border border-white text-lg rounded-lg text-white font-semibold hover:bg-white hover:text-black transition duration-300"
-          >
-            Contact Me
-          </a>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            className="px-8 py-4 border border-purple-500 text-lg rounded-lg text-purple-400 font-semibold hover:bg-purple-500 hover:text-white transition duration-300"
-          >
-            View Resume
-          </a>
-        </div>
-
       </div>
     </section>
+    <section id="about"><About /></section>
+    </>
   );
 }
 
