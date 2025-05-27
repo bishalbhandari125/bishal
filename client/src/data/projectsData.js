@@ -32,7 +32,7 @@ const projects = [
     live: "#"
   },
    {
-    id: "3",
+    id: "5",
     title: "Task Manager",
     description: "Kanban-style task manager app with drag-and-drop support.",
     image: "https://via.placeholder.com/800x400",
@@ -40,7 +40,7 @@ const projects = [
     live: "#"
   },
   {
-    id: "4",
+    id: "6",
     title: "E-commerce Site",
     description: "Modern e-commerce frontend with cart and checkout features.",
     image: "https://via.placeholder.com/800x400",

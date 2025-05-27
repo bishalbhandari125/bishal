@@ -36,6 +36,9 @@ function Navbar() {
         <ScrollLink to="experience" smooth duration={500} offset={-70} className="cursor-pointer hover:text-yellow-400">
           Experience
         </ScrollLink>
+        <ScrollLink to="contact" smooth duration={500} offset={-70} className="cursor-pointer hover:text-yellow-400">
+          Contact
+        </ScrollLink>
         <a href="/resume.pdf" target="_blank" className="hover:text-yellow-400">
           Resume
         </a>
